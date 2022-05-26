@@ -1,0 +1,10 @@
+quarkus:
+  http:
+    port: 8081
+greetings:
+  message: whoami
+
+"%dev":
+  quarkus:
+    http:
+      port: 8088
